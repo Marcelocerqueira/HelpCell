@@ -7,21 +7,64 @@
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 
-
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+        }
+        
+        html {
+            display: table;
+            margin: auto;
+        }
+        
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .margin {
+            margin: 0 !important;
+        }
+    </style>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0" />
 </head>
 
-<body >
-    
-        <div class="imga">
-            <img src="mal15.png">                           
+<body class="light-green lighten-5">
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <form class="login-form">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="mal15.png">
+                            <span class="card-title">
+                            <h2></h2>
+                            <h6></h6>
+                        </span>
+                        </div>
+                        
+                        <div class="card-action blue-grey lighten-3">
+                            <div class="center-align">
+                                <a href="login.html" class="btn blue-grey darken-1"><i class="material-icons left"></i>Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="card-action blue-grey lighten-3">
+                        <div class="center-align">
+                            <a href="telaCadastro.html" class="btn blue-grey darken-1"><i class="material-icons left"></i>Cadastrar</a>
+                        </div>
+                    </div>
+            </div>
         </div>
-        <div id="bu">
-            <button>Login</button>
-            <button>Cadastrar</button>
-        </div>              
+    </div>
+    
+
+
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
