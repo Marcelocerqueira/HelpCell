@@ -5,6 +5,12 @@ body{
 	background-repeat: no-repeat;
 
 }
+.bu{
+	text-align: center;
+	margin-top: 40%;
+	font-size: 30px;
+	color: red;
+}
 *{
 	margin: 0;
 	padding: 0;
