@@ -14,9 +14,13 @@ body{
 .for{
 	text-align: center;
 }
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
 .butt{
 	text-align: center;
-	font-size: 25px;
+	font-size: 40px;
 }
 *{
 	margin: 0;
