@@ -5,6 +5,12 @@ body{
 	background-repeat: no-repeat;
 
 }
+.icon_agenda{
+	text-align: center;
+	
+	
+	font-size: 30px;
+}
 .bu{
 	margin-bottom: 50%;
 	text-align: auto;
