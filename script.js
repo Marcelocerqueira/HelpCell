@@ -1,4 +1,4 @@
-function mal12(){
-    alert("cadastrado com sucesso!");
+function cadastrar(){
+	alert("Cadastrado com sucesso!!");
 }
 
